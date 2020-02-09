@@ -19,7 +19,7 @@ Below are the options with samples on the current (as of 2/10/20) options.
      - You manage: how code is deployed (git, SFTP, folder, etc), balancing AppService Plans on shared infrastructure, network security (in/out)
      - Cost: you pay for the entire ASE and all App Service Plans hosted on it.
      - Limitations: all incoming traffic must be HTTP/S
-* ## (ACI) Azure Container Instances [Sample](https://github.com/SameerDoshi/AzureContainerSamples/blob/master/AzureContainerInstance/reademe.md)
+* ## (ACI) Azure Container Instances [Sample](https://github.com/SameerDoshi/AzureContainerSamples/tree/master/AzureContainerInstance)
      - Host internally or externally facing apps!   
      - Microsoft manages: OS, load balancing, domain name, logging 
      - You manage: container registry providing images, ports, SSL, networking configuration
