@@ -13,3 +13,5 @@ $ACR_LOGIN_SERVER="functionapp120200208051912.azurecr.io"
 $ACR_User="FunctionApp120200208051912"
 $ACR_Password="<replace>"
 az container create --name aci-demo --resource-group $RES_GROUP --image $image --registry-login-server $ACR_LOGIN_SERVER --registry-username $ACR_User --registry-password $ACR_Password --dns-name-label sam33rsamp13-M --query ipAddress.fqdn --ports 80 8080
+
+Note: This code is provided as-is without warranty and is not supported.  This is meant as samles only. Do not use this code in production.
